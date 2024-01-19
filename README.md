@@ -1,7 +1,7 @@
 # Scrum-Project-1
 
 ## Contributors:
-Lars
+Lars (https://github.com/lmbek)
 Najib
 Stig
 Marcus
