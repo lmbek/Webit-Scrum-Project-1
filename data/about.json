@@ -1,0 +1,46 @@
+[
+    {
+        "Navn": "Lars ",
+        "image": {
+            "src": "/images/lars.png",
+            "alt": "image of lars"
+        },
+        "Rolle i teamet": "Scrum Master"
+    },
+
+    {
+        "Navn": "Jonathan",
+        "image": {
+            "src": "/images/jonathan.png",
+            "alt": "image of jonathan"
+        },
+        "Rolle i teamet": "Product Owner"
+    },
+
+    {
+        "Navn": "Stig",
+        "image": {
+            "src": "/images/stig.png",
+            "alt": "image of stig"
+        },
+        "Rolle i teamet": "Development Team"
+    },
+
+    {
+        "Navn": "Marcus",
+        "image": {
+            "src": "/images/marcus.png",
+            "alt": "image of marcus"
+        },
+        "Rolle i teamet": "Development Team"
+    },
+
+    {
+        "name": "Najib",
+        "image": {
+            "src": "/images/najib.png",
+            "alt": "image of najib"
+        },
+        "Rolle i teamet": "Development Team"
+    }
+]
