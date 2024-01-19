@@ -1,0 +1,5 @@
+Vores mål er at mestre Scrum og lære om dens anvendelse i komplekse projekter.
+Intention bag vores mål er at effektivisere vores arbejde i projektet gennem samarbejde.
+Vi vil arbejde fokuseret, have åbenhed om kompleksiteter, have respekt for hinanden og mod til at engagere sig i projektet.
+
+Sideløbbende vil vi også mestre et workflow i git, hvor vi har en LatestRelease branch, en Development branch og nogle developer branches. Dette vil gøre os i stand til at arbejde med fildeling og versionsstyring nemmere.
