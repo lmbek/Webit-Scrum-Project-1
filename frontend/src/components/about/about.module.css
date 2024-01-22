@@ -1,0 +1,43 @@
+.title{
+    text-align: center;
+}
+
+.members{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min-content, 200px));
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem;
+}
+
+
+.members div{
+    border: solid black 1px;
+    background-color: #E49393;
+    padding: 0;
+}
+
+.members p{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+.members img{
+    max-width: 100%;
+    width: 200px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.cardStyling{
+    padding: 20px;
+}
+
+.goal{
+    margin: 2rem auto;
+    width: 1130px;
+    max-width: calc(100% - 4rem);
+    padding: 2rem;
+    background-color: #f5c8c8;
+}
