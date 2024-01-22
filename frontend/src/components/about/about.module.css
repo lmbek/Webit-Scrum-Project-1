@@ -1,0 +1,12 @@
+.members{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min-content, 200px));
+}
+
+.members img{
+    max-width: 100%;
+}
+
+.cardStyling{
+    padding: 20px;
+}
