@@ -1,6 +1,6 @@
 [
     {
-        "Navn": "Lars ",
+        "Navn": "- Lars ",
         "image": {
             "src": "/images/lars.png",
             "alt": "image of lars"
@@ -9,7 +9,7 @@
     },
 
     {
-        "Navn": "Jonathan",
+        "Navn": "- Jonathan",
         "image": {
             "src": "/images/jonathan.png",
             "alt": "image of jonathan"
@@ -18,7 +18,7 @@
     },
 
     {
-        "Navn": "Stig",
+        "Navn": "- Stig",
         "image": {
             "src": "/images/stig.png",
             "alt": "image of stig"
@@ -27,7 +27,7 @@
     },
 
     {
-        "Navn": "Marcus",
+        "Navn": "- Marcus",
         "image": {
             "src": "/images/marcus.png",
             "alt": "image of marcus"
@@ -36,7 +36,7 @@
     },
 
     {
-        "Navn": "Najib",
+        "Navn": "- Najib",
         "image": {
             "src": "/images/najib.png",
             "alt": "image of najib"
