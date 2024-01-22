@@ -19,6 +19,7 @@ function About() {
 				})}
 			</div>
 			<div className={style.goal}>
+				<h2>Om os</h2>
 				<p>
 					Vores mål er at mestre Scrum og lære om dens anvendelse i komplekse projekter.
 					Intention bag vores mål er at effektivisere vores arbejde i projektet gennem samarbejde.
