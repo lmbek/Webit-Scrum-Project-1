@@ -1,7 +1,7 @@
 import './App.css'
-import Header from "./components/header.jsx";
-import Footer from "./components/footer.jsx";
-import About from "./components/about.jsx";
+import Header from "./components/header/header.jsx";
+import Footer from "./components/footer/footer.jsx";
+import About from "./components/about/about.jsx";
 
 function App() {
 
@@ -9,7 +9,7 @@ function App() {
     <>
         <Header></Header>
         <main>
-            <About Kage={"2"}></About>
+            <About></About>
         </main>
         <Footer></Footer>
     </>
