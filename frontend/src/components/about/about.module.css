@@ -23,6 +23,18 @@
     padding-left: 15px;
 }
 
+.rolle{
+    font-weight: bold;
+    text-align: center;
+    padding-right: 15px;
+}
+
+.navn{
+    text-align: right;
+    margin: 0;
+    padding-right: 10px;
+}
+
 .members img{
     max-width: 100%;
     width: 200px;
