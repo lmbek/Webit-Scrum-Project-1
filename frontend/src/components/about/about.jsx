@@ -11,13 +11,15 @@ function About() {
 					return (
 						<div key={index} className={style.cardStyling}>
 							<img src={item.image.src} alt={item.image.alt}/>
-							<p>{data[index].Navn}</p>
-							<p>{data[index]["Rolle i teamet"]}</p>
+							<p className={style.rolle}>{data[index]["Rolle i teamet"]}</p>
+							<p className={style.navn}>{data[index].Navn}</p>
+							
 						</div>
 					);
 				})}
 			</div>
 			<div className={style.goal}>
+				<h2>Om os</h2>
 				<p>
 					Vores mål er at mestre Scrum og lære om dens anvendelse i komplekse projekter.
 					Intention bag vores mål er at effektivisere vores arbejde i projektet gennem samarbejde.
