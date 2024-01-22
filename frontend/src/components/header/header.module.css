@@ -20,8 +20,11 @@
 	height: 100%;
 }
 
-h1 {
+.title {
 	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 
@@ -77,5 +80,8 @@ h1 {
 @media screen and (max-width: 430px) {
 	.topnav a.icon {
 		display: block;
+	}
+	.title {
+		display: none;
 	}
 }

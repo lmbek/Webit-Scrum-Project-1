@@ -19,8 +19,8 @@ function Header(props) {
 			<nav>
 
 				<div className={styles.topnav}>
-					<a href="#home" className={styles.active}><img src={logo} alt="logo"/></a>
-					<h1>SCRUM: Fueling Teams, Igniting Success!</h1>
+					<a href="/" className={styles.active}><img src={logo} alt="logo"/></a>
+					<h1 className={styles.title}>SCRUM: Fueling Teams, Igniting Success!</h1>
 
 					{/*<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->*/}
 					<a className={styles.icon} onClick={toggleNav}>
