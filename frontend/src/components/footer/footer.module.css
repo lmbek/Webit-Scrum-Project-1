@@ -1,24 +1,51 @@
 .gridContainer {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
-  background-color: #d8d8d8;
- 
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 10px;
+	grid-row-gap: 10px;
+	background-color: #d8d8d8;
+}
+
+.gridContainer img{
+	max-width: 100%;
 }
 
 .gridItemEnd {
-  grid-column: 3/4;
-  display: flex;
-  grid-column-gap: 10px;
-  justify-content: center;
-  align-items: center;
+	grid-column: 3/4;
+	display: flex;
+	grid-column-gap: 10px;
+	justify-content: center;
+	align-items: center;
+	padding: 2rem;
 }
+
 .gridItemStart {
-  grid-column: 1/2;
-  padding: 0 50px;
+	grid-column: 1/2;
+	padding: 0 50px;
 }
 
 .icon {
-  width: 60px;
+	width: 60px;
+}
+
+@media screen and (max-width: 768px) {
+	.gridContainer {
+		grid-template-columns: 1fr;
+	}
+
+	.gridItemStart {
+		grid-column: unset;
+		padding: 0 1rem;
+		display: flex;
+		flex-direction: column;
+		grid-column-gap: 10px;
+		justify-content: center;
+		align-items: center;
+		padding: 2rem;
+	}
+
+	.gridItemEnd {
+		grid-column: unset;
+	}
+
 }
