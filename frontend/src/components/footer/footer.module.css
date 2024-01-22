@@ -6,6 +6,10 @@
 	background-color: #d8d8d8;
 }
 
+.gridContainer img{
+	max-width: 100%;
+}
+
 .gridItemEnd {
 	grid-column: 3/4;
 	display: flex;
