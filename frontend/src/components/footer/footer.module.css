@@ -3,7 +3,8 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 10px;
   grid-row-gap: 10px;
-background-color: #D8D8D8;
+  background-color: #d8d8d8;
+ 
 }
 
 .gridItemEnd {
@@ -12,14 +13,12 @@ background-color: #D8D8D8;
   grid-column-gap: 10px;
   justify-content: center;
   align-items: center;
-
-
 }
 .gridItemStart {
-    grid-column: 1/2;
-    padding: 0 50px;
-  }
-  
-.icon{
-    width: 60px;
+  grid-column: 1/2;
+  padding: 0 50px;
+}
+
+.icon {
+  width: 60px;
 }
