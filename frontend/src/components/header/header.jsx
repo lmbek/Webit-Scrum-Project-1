@@ -1,6 +1,6 @@
 import {React, useState} from 'react';
 import styles from './header.module.css'
-import logo from './../../../public/images/logo-vid.png'
+import logo from './../../../../images/Logotre.png'
 import burgerIcon from './../../../public/images/burger-icon.svg'
 
 
@@ -19,12 +19,12 @@ function Header(props) {
 			<nav>
 
 				<div className={styles.topnav}>
-					<a href="#home" className={styles.active}><img src={logo} alt="logo"/></a>
-					<h1>Title</h1>
+					<a href="/" className={styles.active}><img src={logo} alt="logo"/></a>
+					<h1 className={styles.title}>SCRUM: Fueling Teams, Igniting Success!</h1>
 
 					{/*<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->*/}
 					<a className={styles.icon} onClick={toggleNav}>
-						<img src={burgerIcon} alt=""/>
+						<img src={burgerIcon} alt="burger_menu_icon"/>
 					</a>
 
 					{/*<!-- Navigation links (hidden by default) -->*/}
