@@ -82,11 +82,11 @@
 
 
 /* Style the active link (or home/logo) */
-.logo {
+a.logo {
 	justify-self: start;
 	color: white;
 	width: 150px;
-	
+	padding: 0;
 }
 
 
