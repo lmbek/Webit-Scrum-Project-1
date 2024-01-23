@@ -9,28 +9,28 @@ function Releases() {
 				<p>
 					<span>This is the release notes for version 0.4.0</span>
 				</p>
-				<a href={link}>Link</a>
+				<a href={""}>Link</a>
 			</section>
 			<section>
 				<h2>0.3.0</h2>
 				<p>
 					<span>This is the release notes for version 0.3.0</span>
 				</p>
-				<a href={link}>Link</a>
+				<a href={""}>Link</a>
 			</section>
 			<section>
 				<h2>0.2.0</h2>
 				<p>
 					<span>This is the release notes for version 0.2.0</span>
 				</p>
-				<a href={link}>Link</a>
+				<a href={""}>Link</a>
 			</section>
 			<section>
 				<h2>0.1.0</h2>
 				<p>
 					<span>This is the release notes for version 0.1.0</span>
 				</p>
-				<a href={link}>Link</a>
+				<a href={""}>Link</a>
 			</section>
 		</article>
 	);
