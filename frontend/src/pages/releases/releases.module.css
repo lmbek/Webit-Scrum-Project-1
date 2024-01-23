@@ -1,21 +1,26 @@
 .article{
-   
-    display: flex;
     margin: 0 auto;
     justify-content: center;
-    flex-wrap: wrap;
 }
-.releaseSection{
-    border: 2px solid black;
-   padding: 5px;
-   max-width: 300px;
 
-   margin: 20px;
+.article .releaseSection {
+	border: 2px solid black;
+	padding: 5px;
+	margin: 2rem auto;
+	max-width: 1280px;
 }
+
 h2{
-    padding: 0px;
+    padding: 0;
 }
 h1{
     padding: 20px 0px;
     text-align: center;
+}
+
+.seeAll {
+	flex: 100%;
+	width: 50px;
+	text-align: center;
+	padding: 2rem;
 }
