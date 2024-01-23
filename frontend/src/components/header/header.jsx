@@ -1,7 +1,7 @@
 import {React, useState} from 'react';
 import styles from './header.module.css'
 import logo from './../../../../images/nylogo.png'
-import burgerIcon from './../../../public/images/burger-icon.svg'
+import burgerIcon from './../../assets/images/burger-icon.svg'
 
 
 function Header(props) {
@@ -11,6 +11,11 @@ function Header(props) {
 
 	const toggleNav = () => {
 		setNavVisibility(!isNavVisible);
+		if(isNavVisible) {
+			document.getElementById("myLinks").style.display = "none";
+		} else {
+			document.getElementById("myLinks").style.display = "flex"
+		}
 	};
 
 
@@ -19,7 +24,7 @@ function Header(props) {
 			<nav>
 
 				<div className={styles.topnav}>
-					<a href="/" className={styles.active}><img src={logo} alt="logo"/></a>
+					<a href="/" className={styles.logo}><img src={logo} alt="logo"/></a>
 					<h1 className={styles.title}>SCRUM: Fueling Teams, Igniting Success!</h1>
 
 					{/*<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->*/}
@@ -28,10 +33,9 @@ function Header(props) {
 					</a>
 
 					{/*<!-- Navigation links (hidden by default) -->*/}
-					<div id="myLinks" className={styles.myLinks} style={{display: isNavVisible ? 'block' : 'none'}}>
-						<a href="#news">News</a>
-						<a href="#contact">Contact</a>
-						<a href="#about">About</a>
+					<div id="myLinks" className={styles.myLinks}>
+						<a href="/">Forside</a>
+						<a href="/findos">Find os</a>
 					</div>
 				</div>
 

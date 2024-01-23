@@ -10,7 +10,9 @@
 
 
 .googleMap{
-    width: 50%;
-    height: 300px;
+    margin: 2rem auto;
+    width: calc(100% - 4rem);
+    max-width: 1280px;
+    height: 600px;
     border-style: none;
 }
