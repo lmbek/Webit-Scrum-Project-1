@@ -35,6 +35,7 @@ function Header(props) {
 					{/*<!-- Navigation links (hidden by default) -->*/}
 					<div id="myLinks" className={styles.myLinks}>
 						<a href="/">Forside</a>
+						<a href="/release">Releases</a>
 						<a href="/findos">Find os</a>
 					</div>
 				</div>
