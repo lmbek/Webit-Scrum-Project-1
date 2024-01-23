@@ -1,6 +1,6 @@
 import {React, useState} from 'react';
 import styles from './header.module.css'
-import logo from './../../../../images/Logotre.png'
+import logo from './../../../../images/nylogo.png'
 import burgerIcon from './../../../public/images/burger-icon.svg'
 
 
