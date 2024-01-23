@@ -57,3 +57,7 @@
 .image{
     border-radius: 10px;
 }
+.line{
+    max-width: 1000px;
+    max-height: 3px;
+}

@@ -18,6 +18,7 @@ function About() {
 					);
 				})}
 			</div>
+			<hr className={style.line} />
 			<div className={style.goal}>
 				<h2>Om os</h2>
 				<p>
