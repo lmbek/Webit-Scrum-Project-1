@@ -13,7 +13,8 @@
 
 .members div{
     border: solid black 1px;
-    background-color: #E49393;
+    border-radius: 10px;
+    background-color: white;
     padding: 0;
 }
 
@@ -51,5 +52,8 @@
     width: 1130px;
     max-width: calc(100% - 4rem);
     padding: 1rem 2rem;
-    background-color: #f5c8c8;
+    background-color: white ;
+}
+.image{
+    border-radius: 10px;
 }

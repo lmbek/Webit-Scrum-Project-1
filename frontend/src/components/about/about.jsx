@@ -10,7 +10,7 @@ function About() {
 				{data.map((item, index) => {
 					return (
 						<div key={index} className={style.cardStyling}>
-							<img src={item.image.src} alt={item.image.alt}/>
+							<img className={style.image} src={item.image.src} alt={item.image.alt}/>
 							<p className={style.rolle}>{data[index]["Rolle i teamet"]}</p>
 							<p className={style.navn}>{data[index].Navn}</p>
 							

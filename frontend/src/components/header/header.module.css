@@ -9,7 +9,7 @@
 .topnav {
 	background-color: black;
 	display: grid;
-	grid-template-columns: auto 1fr auto;
+	grid-template-columns: 0 1fr auto;
 	color: white;
 }
 
@@ -68,6 +68,8 @@
 /* Style the active link (or home/logo) */
 .active {
 	color: white;
+	width: 300px;
+	
 }
 
 
