@@ -1,0 +1,21 @@
+.article{
+   
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.releaseSection{
+    border: 2px solid black;
+   padding: 5px;
+   max-width: 300px;
+
+   margin: 20px;
+}
+h2{
+    padding: 0px;
+}
+h1{
+    padding: 20px 0px;
+    text-align: center;
+}
