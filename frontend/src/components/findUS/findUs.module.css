@@ -1,0 +1,16 @@
+
+.Map{
+    width: 99%;
+    text-align: center;
+}
+
+.Address{
+    width: 100%;
+}
+
+
+.googleMap{
+    width: 50%;
+    height: 300px;
+    border-style: none;
+}
